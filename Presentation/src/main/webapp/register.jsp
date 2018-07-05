@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<body align="left" style="background-size: cover; background-position: center center; width: 100%;background="http://www.prodevans.com/wp-content/uploads/2017/04/slide3tst3.jpg">
+<body align="left" width="100%" background="http://www.prodevans.com/wp-content/uploads/2017/04/slide3tst3.jpg">
 
 <form target="_self" method="post" >
 	<table align="left" style="margin: 0px auto; border: 0px solid black;">
