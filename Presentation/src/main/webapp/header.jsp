@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<body>
 <form id="headerForm" target="_self" method="post">
 	<table style="width: 100%;">
 		<tr>
@@ -65,6 +65,7 @@
 		</tr>
 	</table>
 </form>
+</body>
 
 <script type="text/javascript">
 	function history() {
