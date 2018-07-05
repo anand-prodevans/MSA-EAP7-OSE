@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<body>
+<body background="http://www.prodevans.com/wp-content/uploads/2017/04/slide2tst2.jpg">
 <form id="headerForm" target="_self" method="post">
 	<table style="width: 100%;">
 		<tr>
