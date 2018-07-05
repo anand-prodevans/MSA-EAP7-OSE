@@ -3,7 +3,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
-<div style="margin-top: 5em; margin-bottom: 1em;">
+<body background="https://www.cossindia.net/wp-content/uploads/2015/05/duo6_w.jpg">
+<div style="margin-top: 1em; margin-bottom: 1em; font-family:roboto">
 	<table style="margin: 0px auto;">
 		<caption style="margin: 0px auto; font-size: 2em; padding: 1em;">Order
 			Summary</caption>
@@ -47,7 +48,7 @@
 </div>
 <form target="_self" method="post">
 	<input type="hidden" name="amount" value="${total}">
-	<table style="margin: 0em auto; border: 0px; padding: 2em;">
+	<table style="margin: 0em auto; border: 0px; padding: 2em; font-family:roboto">
 		<tr>
 			<td style="padding: 5px;">Customer:</td>
 			<td style="padding: 5px;">${sessionScope.customer.name}</td>
@@ -99,11 +100,12 @@
 
 	<div style="margin: 0px auto; text-align: center;">
 		<button name="completeOrder" value="true"
-			style="background-color: LightBlue; font-size: 1em; padding: 5px; margin-left: 20px; margin-right: 20px;">Submit</button>
+			style="font-size: 1em; padding: 5px; margin-left: 20px; margin-right: 20px; font-family:roboto">Submit</button>
 		<button onclick="document.getElementById('cancel_form').submit();"
 			type="button"
-			style="background-color: LightBlue; font-size: 1em; padding: 5px; margin-left: 20px; margin-right: 20px;">Cancel</button>
+			style="font-size: 1em; padding: 5px; margin-left: 20px; margin-right: 20px; ">Cancel</button>
 	</div>
 </form>
 
 <form id="cancel_form" target="_self" method="post"></form>
+</body>
